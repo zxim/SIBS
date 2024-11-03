@@ -1,6 +1,13 @@
 # SIBS
-## Overview
-A project leveraging modern technologies to create a robust and efficient system with seamless integration and functionality.
+## Features
+- **Live Broadcast Streaming and Chat**: Provides live streaming and chat functionality.<br>
+- **AI-based Profanity Filtering**: Filters inappropriate language in live chat using AI.<br>
+- **Dashboard for Viewer Interaction**: Offers a dashboard to facilitate diverse communication methods with live viewers.<br>
+- **AI-based Inappropriate Content Filtering**: Uses AI to filter inappropriate content in live broadcasts.<br>
+- **Automatic Foreign Language Translation**: Automatically translates foreign languages in chat.<br>
+- **Real-Time Polls and Quizzes**: Enables real-time polling and quiz features during broadcasts.<br>
+
+<br>
 
 ## Tech Stack
 
@@ -13,13 +20,18 @@ A project leveraging modern technologies to create a robust and efficient system
 ### Database
 <div>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/Hasura-1EB4D4?style=for-the-badge&logo=hasura&logoColor=white">
 </div>
 
 ### Frameworks & Libraries
 <div>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+</div>
+
+### AI
+<div>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
 </div>
 
 ### Development Environment (IDE)
@@ -31,6 +43,9 @@ A project leveraging modern technologies to create a robust and efficient system
 
 ### Other Tools
 <div>
+<img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white">
+<img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=websocket&logoColor=white">
+<img src="https://img.shields.io/badge/HTTP-005571?style=for-the-badge&logo=http&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
