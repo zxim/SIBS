@@ -57,7 +57,7 @@
 
 <br>
 
-**For more details, check the link below.**
+## For more details, check the link below.
 [Velog link](https://velog.io/@tlaals44/2024-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
 
