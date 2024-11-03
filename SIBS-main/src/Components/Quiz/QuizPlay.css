@@ -1,0 +1,63 @@
+.quiz-play-container {
+    background-color: #ffffff; /* 배경색을 흰색으로 설정 */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .quiz-play-container h1 {
+    color: #333;
+  }
+  
+  .quiz-question {
+    margin-bottom: 20px;
+  }
+  
+  .quiz-question form {
+    text-align: left;
+  }
+  
+  .option {
+    margin-bottom: 10px;
+  }
+  
+  .quiz-question form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .quiz-question form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .quiz-question form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .result button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result button:hover {
+    background-color: #0056b3;
+  }
+  

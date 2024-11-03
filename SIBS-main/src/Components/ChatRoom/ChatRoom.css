@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: relative;
+}
+  
+.chat-room {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100vh; /* 높이를 화면 전체에 맞춤 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 20px 0 0 20px; /* 왼쪽 모서리만 둥글게 */
+    overflow: hidden;
+    position: fixed; /* 화면에 고정 */
+    top: 0; /* 상단에서 0px 떨어짐 */
+    right: 0; /* 오른쪽에서 0px 떨어짐 */
+}
+  
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px;
+    padding: 10px;
+    background: linear-gradient(to right, #232526, #414345);
+    color: white;
+    border-top-left-radius: 20px; /* 헤더에 둥근 모서리 유지 */
+}
+  
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+  
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+  
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+.message .message-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: calc(100% - 50px);
+}
+  
+.message .message-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+  
+.message .username {
+    font-weight: bold;
+}
+  
+.message p {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f1f0f0;
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+  
+.message-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+  
+.message-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    color: #007bff;
+}
+  
+.message.system-message p {
+    color: red;
+    background-color: transparent;
+}
+  
+.chatroom-container {
+    display: flex;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px; /* 폼에 둥근 모서리 유지 */
+}
+  
+.chatroom-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+  
+.chatroom-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #414345;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+  
+.chatroom-container button:hover {
+    background-color: #414345;
+}
+  
+.settings-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* 배경을 어둡게 */
+    z-index: 1000; /* 모달이 다른 요소들 위에 나타나도록 설정 */
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto; /* 내용이 많을 때 스크롤 가능하도록 설정 */
+  }
+  

@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.root {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure overlay is above other content */
+}
+
+.loginSignupContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001; /* Ensure the modal is above the overlay */
+  visibility: hidden; /* Default to hidden */
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.showContainer {
+  visibility: visible;
+  opacity: 1;
+}
+.hs-overlay {
+  display: none;
+}
+.hs-overlay.block {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+.closeButton {
+  position: absolute;
+  top: 25px; 
+  right: 40px; 
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: black; /* 아이콘 색상 */
+  font-size: 24px; /* 아이콘 크기 */
+}
+
+header {
+  height: 60px; /* 헤더의 높이를 설정합니다 */
+}
+
+section {
+  flex-grow: 1;
+  height: calc(100vh - 60px); /* 100vh에서 헤더의 높이를 뺀 값으로 설정 */
+}
