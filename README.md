@@ -1,4 +1,6 @@
 # SIBS
+**Development of a Live Chat Solution Providing Diverse Communication Methods**
+
 ## Features
 - **Live Broadcast Streaming and Chat**: Provides live streaming and chat functionality.<br>
 - **AI-based Profanity Filtering**: Filters inappropriate language in live chat using AI.<br>
@@ -32,6 +34,8 @@
 ### AI
 <div>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white">
 </div>
 
 ### Development Environment (IDE)
@@ -50,5 +54,9 @@
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </div>
+
+<br>
+
+[For more details, check the link below.](https://velog.io/@tlaals44/2024-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 
 
