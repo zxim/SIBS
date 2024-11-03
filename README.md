@@ -59,7 +59,8 @@
 
 
 ## For more details, check the link below.
-[<img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white">](https://velog.io/@tlaals44/2024-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+[<img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=velog&logoColor=white"> Velog Link](https://velog.io/@tlaals44/2024-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+
 
 
 
